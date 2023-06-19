@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <property name="movable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="info">
+       <attribute name="title">
+        <string>Info</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Manuel Utilisation GPT</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QTextBrowser" name="textBrowser">
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10.5pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Utilisation&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Workflow&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;description des taches cotidiennes&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuPersonnel">
+    <property name="title">
+     <string>Personnel</string>
+    </property>
+    <addaction name="actionlecture_pointeuse"/>
+    <addaction name="actionPointage_Brute"/>
+    <addaction name="actionListe_de_Pointage"/>
+    <addaction name="actionListe_ptModel"/>
+   </widget>
+   <widget class="QMenu" name="menuConfiguration">
+    <property name="title">
+     <string>Configuration</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuCalcules">
+    <property name="title">
+     <string>Calcules</string>
+    </property>
+    <addaction name="actionCalcule_Pointage"/>
+   </widget>
+   <widget class="QMenu" name="menudebug_and_test">
+    <property name="title">
+     <string>debug and test</string>
+    </property>
+    <addaction name="actionListe_des_personnels"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuPersonnel"/>
+   <addaction name="menuCalcules"/>
+   <addaction name="menuConfiguration"/>
+   <addaction name="menudebug_and_test"/>
+  </widget>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionListe_des_personnels">
+   <property name="text">
+    <string>Liste des personnels</string>
+   </property>
+  </action>
+  <action name="actionListe_de_Pointage">
+   <property name="text">
+    <string>Liste de Pointage</string>
+   </property>
+  </action>
+  <action name="actionCalcule_Pointage">
+   <property name="text">
+    <string>Calcule Pointage</string>
+   </property>
+  </action>
+  <action name="actionListe_ptModel">
+   <property name="text">
+    <string>Liste ptModel</string>
+   </property>
+  </action>
+  <action name="actionlecture_pointeuse">
+   <property name="text">
+    <string>lecture pointeuse</string>
+   </property>
+  </action>
+  <action name="actionPointage_Brute">
+   <property name="text">
+    <string>Pointage Brute</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

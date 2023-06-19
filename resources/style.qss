@@ -1,0 +1,86 @@
+﻿QWidget {
+    background-color: rgb(180, 180, 205);
+    font: 14pt;
+    }
+
+QFrame #frame_2{
+background-color: rgb(243, 228, 245);
+border-style: solid;
+border-color: rgb(220, 191, 223);
+border-width: 1px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+QFrame #frame_3{
+background-color: rgb(243, 228, 245);
+border-style: solid;
+border-color: rgb(220, 191, 223);
+border-width: 1px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+QFrame #frame{
+background-color: rgb(243, 228, 245);
+border-style: solid;
+border-color: rgb(220, 191, 223);
+border-width: 1px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+QLineEdit {
+background-color: rgb(255, 255, 255);
+border-color: rgb(220, 191, 223);
+border-style: solid;
+border-width: 1px;
+border-radius: 0px;
+}
+QLabel {
+font: 10pt ;
+color: rgb(51, 55, 90);
+border-color: rgb(225, 227, 235);
+border-style: solid;
+border-width: 1px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(221, 224, 232, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+QLabel#label_2 {
+font: 10pt ;
+color: rgb(107, 4, 117);
+border-color: rgb(220, 191, 223);
+border-style: solid;
+border-width: 1px;
+background-color: rgb(243, 228, 245);
+border-radius: 0px;
+}
+
+QLabel#lbl_confirmation {
+color: rgb(0, 170, 0);
+background-color: rgb(240, 240, 240);
+border-style: none;
+border-width: 0px;
+border-radius: 0px;
+
+}
+
+QGroupBox {
+background-color: rgb(243, 228, 245);
+border-style: solid;
+border-color: rgb(220, 191, 223);
+border-width: 1px;
+border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px;
+}
+
+QComboBox {
+background-color: rgb(255, 255, 255);
+}
+
+QMdiArea {
+background-color: rgb(255, 250, 244);
+}
+
+QTextBrowser {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(240, 223, 223, 255), stop:1 rgba(255, 255, 255, 255));
+    }
